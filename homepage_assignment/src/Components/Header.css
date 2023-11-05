@@ -1,0 +1,62 @@
+/* Navbar.css */
+/* 
+font-family: 'Barlow', sans-serif;
+font-family: 'Nunito', sans-serif; */
+
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  border-top-left-radius: 10px;
+}
+
+.logo > img {
+  width: 100%;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Tablet and Mobile Styles */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    height: 50px;
+    width: 50px;
+    border: 1x solid red;
+  }
+
+  .logo > img {
+    width: 100%;
+  }
+
+  .nav-links {
+    flex-direction: column;
+  }
+
+  .nav-links li {
+    margin-bottom: 10px;
+  }
+}
