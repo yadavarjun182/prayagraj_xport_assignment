@@ -15,15 +15,16 @@ const ProductInfo = () => {
 
     useEffect(() => {
         gsap.to(logoItem, {
-            x: 900,
+            x: 840,
             duration: 2,
+            rotate: 360,
+            scaleY: 0.6,
+            scaleX: 0.8,
             // delay: 2
         })
-     
-
     }, [])
 
-   
+
 
     return (
         <>
@@ -38,7 +39,7 @@ const ProductInfo = () => {
             <div class="image-right">
                 <img src="/rightchip.jpg" alt="packet of chips" />
                 <div>
-                    <h1>Liking us is easy, crunching is too.</h1>
+                    <h1>crunching is too.</h1>
                 </div>
             </div>
         </>

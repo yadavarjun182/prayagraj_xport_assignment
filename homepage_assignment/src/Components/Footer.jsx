@@ -11,27 +11,24 @@ const Footer = () => {
                 <hr />
                 <div class="content">
                     <div class="box">
-                        <h4>First</h4>
+                        <h4>contact me</h4>
                         <p>
-                            Lorem ipsum
+
                             <br />
-                            Lorem ipsum
+                            yadavarjun182@gmail.com
                         </p>
                     </div>
                     <div class="box">
-                        <h4>Second</h4>
+                        <h4>connect</h4>
                         <p>
-                            Lorem
+
                             <br />
-                            Lorem ipsum ipsum
+
+                            +91 9518771538
                             <br />
-                            Lorem
                         </p>
                     </div>
-                    <div class="box">
-                        <h4>Third</h4>
-                        <p>Lorem ipsum</p>
-                    </div>
+
                 </div>
                 <div class="waves">
                     <div class="wave">
